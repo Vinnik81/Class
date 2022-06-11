@@ -71,20 +71,20 @@ namespace HomeWork_3
             //    for (int j = 0; j < 4; j++)
             //    {
             //        B[i, j] = (float)random.NextDouble();
-            //        Console.Write(B[i,j] + " ");
+            //        Console.Write(B[i, j] + " ");
             //    }
             //    Console.WriteLine();
             //}
             //Console.Write($"\nМаксимальный злемент массива A: {A.Max()}");
             //Console.Write($"\nМинимальный элемент массива A: {A.Min()}");
-            //    MinMax(B, out float min, out float max);
+            //MinMax(B, out float min, out float max);
             //Console.Write($"\nМаксимальный злемент массива B: {max}");
             //Console.Write($"\nМинимальный элемент массива B: {min}");
             //Console.Write($"\nСумма всех элементов массива A: {A.Sum()}");
             //Console.WriteLine($"\nСумма всех элементов массива B: {Sum(B, out float sum)}");
             //Console.Write($"\nПроизведение всех элементов массива A: {Mul(A, out int mul)}");
             //Console.Write($"\nПроизведение всех элементов массива B: {Mul(B, out float _mul)}");
-            //for(int i = 0; i < A.Length; i++)
+            //for (int i = 0; i < A.Length; i++)
             //{
             //    if (A[i] % 2 == 0) _sum += A[i];
             //}
@@ -147,7 +147,8 @@ namespace HomeWork_3
             //{
             //    if (str[i] != str[str.Length - i - 1]) poli = false;
             //}
-            //Console.WriteLine(((poli)? "является " : "не является ") + "палиндромом");
+            //Console.WriteLine(((poli) ? "является " : "не является ") + "палиндромом");
+
             //Task 4
             //string[] word;
             //Console.WriteLine($"Введите строку: ");
@@ -166,7 +167,7 @@ namespace HomeWork_3
             Console.WriteLine($"Двумерный массив: ");
             for (int i = 0; i < Arr.GetLength(0); i++)
             {
-                for (int j = 0; j < Arr.GetLength(1); j++) Console.Write($" {Arr[i,j]}");
+                for (int j = 0; j < Arr.GetLength(1); j++) Console.Write($" {Arr[i, j]}");
                 Console.WriteLine();
             }
             MinMax(Arr, out int min, out int max);
